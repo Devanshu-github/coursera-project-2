@@ -1,71 +1,42 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: medium;
+	margin: 0;
+	padding: 0;
+	
 }
+.navbar{
 
+border: none;
+background-color: black;
+color: #61122F;
+}
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #61122F;
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
 }
 
-header{
-    margin: 3% 0 4% 0;
-    text-align: center;
-}
+.center{
+	width: 90%;
+	background-color: grey;
 
-h1{
-    font-size: 1.75em;
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
 }
 
 h2{
-    font-size: 1.25em;
+	text-align: center;
 }
-
-.menu{
-    margin: 0 1%;
+#myNavbar ul li a {
+	color: #61122F;
 }
-
-.menu_item{
-    height: fit-content;
-    border: solid black 2px;
-    background-color: #999999;
-}
-
-.menu_item:not(:last-child){
-    margin-right: 1%;
-}
-
-.menu_title
-{
-    position: relative;
-    text-align: center;
-    padding: 3px 0;
-    width: 35%;
-    left: 2px;
-    bottom: 2px;
-    border: solid black 2px;
-    float:right
-}
-
-.menu_text{
-    margin: 10px 10px 5px 10px;
-    float:right;
-}
-
-#chicken{
-    background-color: #D59898;
-    color: black;
-}
-
-#beef
-{
-    background-color: #C14543;
-    color: white;
-}
-
-#sushi
-{
-    background-color: #E5D198;
-    color: black;
+.navbar-brand{
+font-size: 30px;	
 }
